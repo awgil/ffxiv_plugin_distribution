@@ -38,4 +38,4 @@ Foreach-Object {
 
 $outputStr = ConvertTo-Json -InputObject $output
 
-Out-File -FilePath .\pluginmaster.json -InputObject $outputStr
+Out-File -Encoding ASCII -FilePath .\pluginmaster.json -InputObject $outputStr

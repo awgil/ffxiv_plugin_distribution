@@ -1,15 +1,14 @@
+# Forked and greatly simplified from https://github.com/goatcorp/DalamudPlugins/blob/api5/Make-PluginMaster.ps1
+
 $ErrorActionPreference = 'SilentlyContinue'
 
 $output = New-Object Collections.Generic.List[object]
 
-$dlTemplateInstall = "https://kamori.goats.dev/Plugin/Download/{0}?isUpdate=False&isTesting={1}&branch=api5"
-$dlTemplateUpdate = "https://raw.githubusercontent.com/goatcorp/DalamudPlugins/api5/{0}/{1}/latest.zip"
+$dlTemplate = "https://github.com/awgil/ffxiv_plugin_distribution/raw/master/plugins/{0}/latest.zip"
 
 $apiLevel = 5
 
 $thisPath = Get-Location
-
-$table = ""
 
 Get-ChildItem -Path plugins -File -Recurse -Include *.json |
 Foreach-Object {
@@ -19,21 +18,6 @@ Foreach-Object {
     $newDesc = $content.Description -replace "\n", "<br>"
     $newDesc = $newDesc -replace "\|", "I"
         
-    if ($content.DalamudApiLevel -eq $apiLevel) {
-        if ($content.RepoUrl) {
-            $table = $table + "| " + $content.Author + " | [" + $content.Name + "](" + $content.RepoUrl + ") | " + $newDesc + " |`n"
-        }
-        else {
-            $table = $table + "| " + $content.Author + " | " + $content.Name + " | " + $newDesc + " |`n"
-        }
-    }
-
-    $testingPath = Join-Path $thisPath -ChildPath "testing" | Join-Path -ChildPath $content.InternalName | Join-Path -ChildPath $_.Name
-    if ($testingPath | Test-Path)
-    {
-        $testingContent = Get-Content $testingPath | ConvertFrom-Json
-        $content | add-member -Force -Name "TestingAssemblyVersion" -value $testingContent.AssemblyVersion -MemberType NoteProperty
-    }
     $content | add-member -Force -Name "IsTestingExclusive" -value "False" -MemberType NoteProperty
 
     $internalName = $content.InternalName
@@ -44,22 +28,14 @@ Foreach-Object {
     }
     $content | add-member -Force -Name "LastUpdate" $updateDate -MemberType NoteProperty
 
-    $installLink = $dlTemplateInstall -f $internalName, "False"
-    $content | add-member -Force -Name "DownloadLinkInstall" $installLink -MemberType NoteProperty
-    
-    $installLink = $dlTemplateInstall -f $internalName, "True"
-    $content | add-member -Force -Name "DownloadLinkTesting" $installLink -MemberType NoteProperty
-    
-    $updateLink = $dlTemplateUpdate -f "plugins", $internalName
-    $content | add-member -Force -Name "DownloadLinkUpdate" $updateLink -MemberType NoteProperty
+    $link = $dlTemplate -f $internalName
+    $content | add-member -Force -Name "DownloadLinkInstall" $link -MemberType NoteProperty
+    $content | add-member -Force -Name "DownloadLinkTesting" $link -MemberType NoteProperty
+    $content | add-member -Force -Name "DownloadLinkUpdate" $link -MemberType NoteProperty
 
     $output.Add($content)
 }
 
-$outputStr = $output | ConvertTo-Json
+$outputStr = ConvertTo-Json -InputObject $output
 
 Out-File -FilePath .\pluginmaster.json -InputObject $outputStr
-
-$template = Get-Content -Path mdtemplate.txt
-$template = $template + $table
-Out-File -FilePath .\plugins.md -InputObject $template

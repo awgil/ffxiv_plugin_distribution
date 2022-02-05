@@ -1,0 +1,10 @@
+{
+  "Author": "veyn",
+  "Name": "Boss Mod",
+  "InternalName": "BossMod",
+  "AssemblyVersion": "0.0.0.1",
+  "Description": "A bunch of utilities to simplify bosses.",
+  "ApplicableVersion": "any",
+  "DalamudApiLevel": 5,
+  "LoadPriority": 0
+}

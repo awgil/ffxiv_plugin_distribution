@@ -3,7 +3,7 @@
         "Author":  "veyn",
         "Name":  "Boss Mod",
         "InternalName":  "BossMod",
-        "AssemblyVersion":  "0.0.0.28",
+        "AssemblyVersion":  "0.0.0.29",
         "Description":  "A bunch of utilities to simplify bosses. ***very early alpha, use at your own risk***",
         "ApplicableVersion":  "any",
         "RepoUrl":  "https://github.com/awgil/ffxiv_bossmod",
@@ -11,7 +11,7 @@
         "LoadPriority":  0,
         "IsHide":  "False",
         "IsTestingExclusive":  "False",
-        "LastUpdate":  "1647895196",
+        "LastUpdate":  "1647978153",
         "DownloadLinkInstall":  "https://github.com/awgil/ffxiv_plugin_distribution/raw/master/plugins/BossMod/latest.zip",
         "DownloadLinkTesting":  "https://github.com/awgil/ffxiv_plugin_distribution/raw/master/plugins/BossMod/latest.zip",
         "DownloadLinkUpdate":  "https://github.com/awgil/ffxiv_plugin_distribution/raw/master/plugins/BossMod/latest.zip"

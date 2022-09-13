@@ -3,7 +3,7 @@
         "Author":  "veyn",
         "Name":  "Boss Mod",
         "InternalName":  "BossMod",
-        "AssemblyVersion":  "0.0.0.65",
+        "AssemblyVersion":  "0.0.0.66",
         "Description":  "A bunch of utilities to simplify bosses. Currently supports endwalker content. ***very early alpha, use at your own risk***",
         "ApplicableVersion":  "any",
         "RepoUrl":  "https://github.com/awgil/ffxiv_bossmod",
@@ -18,7 +18,7 @@
         "Punchline":  "Don\u0027t fail at raid mechanics anymore",
         "IsHide":  "False",
         "IsTestingExclusive":  "False",
-        "LastUpdate":  "1662545304",
+        "LastUpdate":  "1663005918",
         "DownloadLinkInstall":  "https://github.com/awgil/ffxiv_plugin_distribution/raw/master/plugins/BossMod/latest.zip",
         "DownloadLinkTesting":  "https://github.com/awgil/ffxiv_plugin_distribution/raw/master/plugins/BossMod/latest.zip",
         "DownloadLinkUpdate":  "https://github.com/awgil/ffxiv_plugin_distribution/raw/master/plugins/BossMod/latest.zip"

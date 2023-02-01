@@ -1,6 +1,26 @@
 [
     {
         "Author":  "veyn",
+        "Name":  "Better borderless window mode",
+        "InternalName":  "borderless-fix",
+        "AssemblyVersion":  "0.0.0.1",
+        "Description":  "Borderless window can now be properly minimized (by clicking on taskbar or by win+down shortcut); when moved between monitors (win+shift+left/right), resolution is updated automatically.",
+        "ApplicableVersion":  "any",
+        "DalamudApiLevel":  8,
+        "LoadRequiredState":  0,
+        "LoadSync":  false,
+        "LoadPriority":  0,
+        "Punchline":  "Make borderless window mode work well with aero shortcuts",
+        "AcceptsFeedback":  true,
+        "IsHide":  "False",
+        "IsTestingExclusive":  "False",
+        "LastUpdate":  0,
+        "DownloadLinkInstall":  "https://github.com/awgil/ffxiv_plugin_distribution/raw/master/plugins/borderless-fix/latest.zip",
+        "DownloadLinkTesting":  "https://github.com/awgil/ffxiv_plugin_distribution/raw/master/plugins/borderless-fix/latest.zip",
+        "DownloadLinkUpdate":  "https://github.com/awgil/ffxiv_plugin_distribution/raw/master/plugins/borderless-fix/latest.zip"
+    },
+    {
+        "Author":  "veyn",
         "Name":  "Boss Mod",
         "InternalName":  "BossMod",
         "AssemblyVersion":  "0.0.0.82",
@@ -21,7 +41,7 @@
         "AcceptsFeedback":  true,
         "IsHide":  "False",
         "IsTestingExclusive":  "False",
-        "LastUpdate":  "1674557040",
+        "LastUpdate":  "1675106080",
         "DownloadLinkInstall":  "https://github.com/awgil/ffxiv_plugin_distribution/raw/master/plugins/BossMod/latest.zip",
         "DownloadLinkTesting":  "https://github.com/awgil/ffxiv_plugin_distribution/raw/master/plugins/BossMod/latest.zip",
         "DownloadLinkUpdate":  "https://github.com/awgil/ffxiv_plugin_distribution/raw/master/plugins/BossMod/latest.zip"

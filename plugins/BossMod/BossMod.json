@@ -2,7 +2,7 @@
   "Author": "veyn",
   "Name": "Boss Mod",
   "InternalName": "BossMod",
-  "AssemblyVersion": "0.0.0.93",
+  "AssemblyVersion": "0.0.0.94",
   "Description": "A bunch of utilities to simplify bosses. Currently supports endwalker content. ***very early alpha, use at your own risk***",
   "ApplicableVersion": "2023.05.18.0000.0000",
   "RepoUrl": "https://github.com/awgil/ffxiv_bossmod",

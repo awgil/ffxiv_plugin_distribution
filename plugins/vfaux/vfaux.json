@@ -1,0 +1,14 @@
+{
+  "Author": "veyn",
+  "Name": "Easier Faux Hollows",
+  "InternalName": "vfaux",
+  "AssemblyVersion": "0.0.0.1",
+  "Description": "Based on ezFauxHollows, but uses known patterns instead of general-purpose solver.",
+  "ApplicableVersion": "any",
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "LoadPriority": 0,
+  "Punchline": "Faux Hollows solver based on known patterns",
+  "AcceptsFeedback": true
+}

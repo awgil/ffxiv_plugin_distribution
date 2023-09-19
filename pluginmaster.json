@@ -23,7 +23,7 @@
         "Author":  "veyn",
         "Name":  "Boss Mod",
         "InternalName":  "BossMod",
-        "AssemblyVersion":  "0.0.0.111",
+        "AssemblyVersion":  "0.0.0.112",
         "Description":  "A bunch of utilities to simplify bosses. Currently supports endwalker content. ***very early alpha, use at your own risk***",
         "ApplicableVersion":  "2023.07.26.0000.0000",
         "RepoUrl":  "https://github.com/awgil/ffxiv_bossmod",
@@ -81,7 +81,7 @@
         "AcceptsFeedback":  true,
         "IsHide":  "False",
         "IsTestingExclusive":  "False",
-        "LastUpdate":  "1695077411",
+        "LastUpdate":  "1695078578",
         "DownloadLinkInstall":  "https://github.com/awgil/ffxiv_plugin_distribution/raw/master/plugins/visland/latest.zip",
         "DownloadLinkTesting":  "https://github.com/awgil/ffxiv_plugin_distribution/raw/master/plugins/visland/latest.zip",
         "DownloadLinkUpdate":  "https://github.com/awgil/ffxiv_plugin_distribution/raw/master/plugins/visland/latest.zip"

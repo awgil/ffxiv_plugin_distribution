@@ -3,7 +3,7 @@
         "Author":  "veyn",
         "Name":  "Better borderless window mode",
         "InternalName":  "borderless-fix",
-        "AssemblyVersion":  "0.0.0.2",
+        "AssemblyVersion":  "0.0.0.3",
         "Description":  "Borderless window can now be properly minimized (by clicking on taskbar or by win+down shortcut); when moved between monitors (win+shift+left/right), resolution is updated automatically.",
         "ApplicableVersion":  "any",
         "DalamudApiLevel":  9,
@@ -15,7 +15,7 @@
         "AcceptsFeedback":  true,
         "IsHide":  "False",
         "IsTestingExclusive":  "False",
-        "LastUpdate":  "1675256108",
+        "LastUpdate":  "1696348265",
         "DownloadLinkInstall":  "https://github.com/awgil/ffxiv_plugin_distribution/raw/master/plugins/borderless-fix/latest.zip",
         "DownloadLinkTesting":  "https://github.com/awgil/ffxiv_plugin_distribution/raw/master/plugins/borderless-fix/latest.zip",
         "DownloadLinkUpdate":  "https://github.com/awgil/ffxiv_plugin_distribution/raw/master/plugins/borderless-fix/latest.zip"
@@ -24,7 +24,7 @@
         "Author":  "veyn",
         "Name":  "Boss Mod",
         "InternalName":  "BossMod",
-        "AssemblyVersion":  "0.0.0.116",
+        "AssemblyVersion":  "0.0.0.117",
         "Description":  "A bunch of utilities to simplify bosses. Currently supports endwalker content. ***very early alpha, use at your own risk***",
         "ApplicableVersion":  "2023.09.28.0000.0000",
         "RepoUrl":  "https://github.com/awgil/ffxiv_bossmod",
@@ -43,7 +43,7 @@
         "AcceptsFeedback":  true,
         "IsHide":  "False",
         "IsTestingExclusive":  "False",
-        "LastUpdate":  "1696348265",
+        "LastUpdate":  "1696454411",
         "DownloadLinkInstall":  "https://github.com/awgil/ffxiv_plugin_distribution/raw/master/plugins/BossMod/latest.zip",
         "DownloadLinkTesting":  "https://github.com/awgil/ffxiv_plugin_distribution/raw/master/plugins/BossMod/latest.zip",
         "DownloadLinkUpdate":  "https://github.com/awgil/ffxiv_plugin_distribution/raw/master/plugins/BossMod/latest.zip"
@@ -64,7 +64,7 @@
         "AcceptsFeedback":  true,
         "IsHide":  "False",
         "IsTestingExclusive":  "False",
-        "LastUpdate":  "1696348265",
+        "LastUpdate":  "1696454411",
         "DownloadLinkInstall":  "https://github.com/awgil/ffxiv_plugin_distribution/raw/master/plugins/vfaux/latest.zip",
         "DownloadLinkTesting":  "https://github.com/awgil/ffxiv_plugin_distribution/raw/master/plugins/vfaux/latest.zip",
         "DownloadLinkUpdate":  "https://github.com/awgil/ffxiv_plugin_distribution/raw/master/plugins/vfaux/latest.zip"
@@ -85,7 +85,7 @@
         "AcceptsFeedback":  true,
         "IsHide":  "False",
         "IsTestingExclusive":  "False",
-        "LastUpdate":  "1696437999",
+        "LastUpdate":  "1696454411",
         "DownloadLinkInstall":  "https://github.com/awgil/ffxiv_plugin_distribution/raw/master/plugins/visland/latest.zip",
         "DownloadLinkTesting":  "https://github.com/awgil/ffxiv_plugin_distribution/raw/master/plugins/visland/latest.zip",
         "DownloadLinkUpdate":  "https://github.com/awgil/ffxiv_plugin_distribution/raw/master/plugins/visland/latest.zip"

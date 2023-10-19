@@ -2,7 +2,7 @@
   "Author": "veyn",
   "Name": "Better borderless window mode",
   "InternalName": "borderless-fix",
-  "AssemblyVersion": "0.0.0.2",
+  "AssemblyVersion": "0.0.0.3",
   "Description": "Borderless window can now be properly minimized (by clicking on taskbar or by win+down shortcut); when moved between monitors (win+shift+left/right), resolution is updated automatically.",
   "ApplicableVersion": "any",
   "DalamudApiLevel": 9,

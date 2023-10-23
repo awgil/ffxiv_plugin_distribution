@@ -73,7 +73,7 @@
         "Author":  "veyn",
         "Name":  "Island sanctuary automation",
         "InternalName":  "visland",
-        "AssemblyVersion":  "0.0.0.13",
+        "AssemblyVersion":  "0.0.0.14",
         "Description":  "Automate gathering, workshop assignments, etc.",
         "ApplicableVersion":  "any",
         "DalamudApiLevel":  9,
@@ -85,7 +85,7 @@
         "AcceptsFeedback":  true,
         "IsHide":  "False",
         "IsTestingExclusive":  "False",
-        "LastUpdate":  "1697986158",
+        "LastUpdate":  "1697988392",
         "DownloadLinkInstall":  "https://github.com/awgil/ffxiv_plugin_distribution/raw/master/plugins/visland/latest.zip",
         "DownloadLinkTesting":  "https://github.com/awgil/ffxiv_plugin_distribution/raw/master/plugins/visland/latest.zip",
         "DownloadLinkUpdate":  "https://github.com/awgil/ffxiv_plugin_distribution/raw/master/plugins/visland/latest.zip"

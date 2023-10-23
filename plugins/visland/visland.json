@@ -2,7 +2,7 @@
   "Author": "veyn",
   "Name": "Island sanctuary automation",
   "InternalName": "visland",
-  "AssemblyVersion": "0.0.0.13",
+  "AssemblyVersion": "0.0.0.14",
   "Description": "Automate gathering, workshop assignments, etc.",
   "ApplicableVersion": "any",
   "DalamudApiLevel": 9,

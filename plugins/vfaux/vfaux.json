@@ -2,7 +2,7 @@
   "Author": "veyn",
   "Name": "Easier Faux Hollows",
   "InternalName": "vfaux",
-  "AssemblyVersion": "0.0.0.3",
+  "AssemblyVersion": "0.0.0.4",
   "Description": "Based on ezFauxHollows, but uses known patterns instead of general-purpose solver.",
   "ApplicableVersion": "any",
   "DalamudApiLevel": 9,
@@ -10,6 +10,7 @@
   "LoadSync": false,
   "CanUnloadAsync": false,
   "LoadPriority": 0,
+  "IconUrl": "https://raw.githubusercontent.com/awgil/vfaux/cc5a9c0564e07cc822b6f7617bd8983c82b8207f/icon.png",
   "Punchline": "Faux Hollows solver based on known patterns",
   "AcceptsFeedback": true
 }
